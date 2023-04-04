@@ -11,7 +11,6 @@ public class hw_4 {
     }
 
     public static int StrToInt(String str){
-
         int num = Integer.parseInt(str);
         return num;
     }
