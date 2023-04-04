@@ -2,15 +2,15 @@ package ex08;
 
 import java.util.Scanner;
 
+
 public class hw_3 {
-    public static String Change(String s) {
-        if (s == "z") {
-            return "a";
-        } else if (s == "Z") {
-            return "A";
-        } else {
-            return (String) (s + 1);
+    public static char[] Change(String s) {
+        char[] charArr = s.toCharArray();
+
+        for(int i=0; i<s.length(); i++){
+            charArr[i]++;
         }
+        return charArr;
     }
 
     public static void main(String[] args) {
