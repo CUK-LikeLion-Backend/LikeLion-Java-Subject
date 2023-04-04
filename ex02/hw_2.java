@@ -3,7 +3,7 @@ package ex02;
 public class hw_2 {
     public static void main(String [] args){
         int a = 5;
-        double b = 8.18;
+        double b = 8.180;
         String c = "우식";
         boolean d = true;
 

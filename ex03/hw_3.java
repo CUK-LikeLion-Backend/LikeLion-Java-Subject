@@ -9,7 +9,8 @@ public class hw_3 {
         System.out.println(calcArea(radius));
     }
 
-    static double calcArea(double r){
+    static double calcArea(double r)
+    {
         return 3.14 * r;
     }
 }

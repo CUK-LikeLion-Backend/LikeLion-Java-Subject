@@ -1,4 +1,4 @@
-## JAVA 기본 자료형과 크기
+## JAVA 기본 자료형과 크기!
 
 1. boolean : 1 byte
 2. byte : 1 byte

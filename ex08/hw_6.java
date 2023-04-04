@@ -10,7 +10,6 @@ public class hw_6 {
             System.out.println(word);
         }
     }
-
     public static String[] splitString(String str, String delimiter) {
         StringTokenizer st = new StringTokenizer(str, delimiter);
         int size = st.countTokens(); //토큰개수 반환

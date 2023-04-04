@@ -9,6 +9,7 @@ public class hw_4 {
 
         System.out.println(ChangetoInt(word));
     }
+
     static int ChangetoInt(String word){
         return Integer.parseInt(word);
     }

@@ -8,7 +8,7 @@ public class hw_3 {
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
 
-        System.out.println(num1 % 3 == 0? "True": "False");
+        System.out.println(num1 % 3 ==0? "True": "False");
         System.out.println(num2 % 4 == 0? "True": "False");
     }
 }

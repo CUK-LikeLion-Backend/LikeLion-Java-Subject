@@ -9,7 +9,6 @@ public class hw_3 {
         String [] arr = word.split("");
         String [] arr2 = new String[arr.length];
         for (String s : arr){
-
         }
     }
 }

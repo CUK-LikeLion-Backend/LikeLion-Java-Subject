@@ -11,6 +11,7 @@ public class hw_5 {
         }
         static String ChangetoString(int num){
             return Integer.toString(num);
+
         }
     }
 

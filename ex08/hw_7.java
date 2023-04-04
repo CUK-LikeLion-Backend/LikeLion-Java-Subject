@@ -11,7 +11,6 @@ import java.util.Scanner;
             String binaryString = toBinaryString(number);
             System.out.println("Binary representation: " + binaryString);
         }
-
         public static String toBinaryString(int number) {
             StringBuilder sb = new StringBuilder();
             while (number > 0) {

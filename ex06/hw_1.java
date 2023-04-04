@@ -5,7 +5,7 @@ public class hw_1 {
         int i = 1, sum = 0;
         while (i <= 10){
             sum += i;
-            i++;
+            i++ ;
         }
         System.out.println(sum);
     }

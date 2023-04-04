@@ -10,7 +10,7 @@ public class hw_4 {
 
         System.out.println("더할 정수 입력");
         int [] arr = new int[number];
-        for (int i = 0; i < arr.length; i++){
+        for (int i =0; i < arr.length; i++){
             arr[i] = sc.nextInt();
         }
         System.out.println(sum(arr));

@@ -9,7 +9,6 @@ public class hw_1 {
 
         System.out.println(UpperWord(word));
     }
-
     static String UpperWord(String word){
         return word.toUpperCase();
     }

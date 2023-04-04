@@ -9,7 +9,6 @@ public class hw_2 {
 
         System.out.println(LowerWord(word));
     }
-
     static String LowerWord(String word){
         return word.toLowerCase();
     }

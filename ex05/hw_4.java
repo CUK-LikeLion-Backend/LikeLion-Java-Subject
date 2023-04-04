@@ -8,7 +8,7 @@ public class hw_4 {
         int month = sc.nextInt();
         int day = sc.nextInt();
 
-        if (month == 2 && day >= 29){
+        if (month ==2 && day >= 29){
             System.out.println("윤년입니다.");
         }
         else{

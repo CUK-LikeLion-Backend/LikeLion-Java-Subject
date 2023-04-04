@@ -7,7 +7,7 @@ public class hw_4 {
             if (i % 3 == 0 && i % 4 == 0){
                 System.out.print(i + " ");
             }
-            i++;
+            i++ ;
         }
     }
 }
