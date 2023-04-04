@@ -1,5 +1,7 @@
 package bonus00;
 
+import java.util.Scanner;
+
 public class bonus00 {
     public static void convertTwoBase(int num) {
         String str = "";
