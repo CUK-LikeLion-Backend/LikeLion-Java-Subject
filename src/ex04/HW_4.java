@@ -1,0 +1,11 @@
+package ex04;
+
+public class HW_4 {
+    public static void main(String[] args) {
+        int x = 5;
+        int y = 3;
+        System.out.println("곱 : "+(x*y));
+        System.out.println("몫 : "+(x/y));
+    }
+
+}
