@@ -1,4 +1,5 @@
 package ex08;
+import java.util.Scanner;
 
 public class hw_2 {
     public static String toLower(String str) {
@@ -6,7 +7,11 @@ public class hw_2 {
     }
 
     public static void main(String[] args) {
-        String name = "HYUNJIN";
-        System.out.println(toLower(name));
+        Scanner scan = new Scanner(System.in);
+
+        String str;
+        str = scan.nextLine();
+
+        System.out.println(toLower(str));
     }
 }

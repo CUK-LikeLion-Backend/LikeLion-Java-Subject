@@ -1,5 +1,7 @@
 package ex08;
 
+import java.util.Scanner;
+
 public class hw_3 {
     public static char changeAlpha(char word){
         if(word == 'Z') return 'A';
