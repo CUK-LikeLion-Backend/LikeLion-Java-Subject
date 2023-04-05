@@ -1,6 +1,7 @@
 package ex07;
 
 public class hw_1 {
+
     static class myInteger {
         int num = 0;
 

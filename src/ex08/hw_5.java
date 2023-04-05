@@ -14,6 +14,5 @@ public class hw_5 {
         }catch(InputMismatchException e){
             System.out.println("숫자만 입력해주세요");
         }
-
     }
 }
