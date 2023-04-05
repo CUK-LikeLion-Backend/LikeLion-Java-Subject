@@ -1,24 +1,50 @@
 package ex07;
 
 public class hw_1 {
-    public static int preIncrease(Integer num){
-        num +=1;
-        return num;
+
+    static class myInteger {
+        int num = 0;
+
+        @Override
+        public String toString() {
+            return Integer.toString(num);
+        }
     }
 
-    public static int postIncrease(Integer num){
-        int temp = num;
-        num += 1;
-        return temp;
+    public static int preIncrease(myInteger num) {
+        num.num += 1;
+        return num.num;
     }
+
+    public static int postIncrease(myInteger num) {
+        int tmp = num.num;
+        num.num += 1;
+        return tmp;
+    }
+
+
     public static void main(String[] args) {
-        Integer a = 0;
-        System.out.println(postIncrease(a));
-        a = 0;
+        int a = 0;
+        myInteger b = new myInteger();
+
         System.out.println(a++);
-        a = 0;
+        System.out.println(postIncrease(b));
+        System.out.println("a: " + a + " b:" + b);
+        System.out.println("-----");
+
         System.out.println(++a);
-        a = 0;
-        System.out.println(preIncrease(a));
+        System.out.println(preIncrease(b));
+        System.out.println("a: " + a + " b:" + b);
+        System.out.println("-----");
+
+        System.out.println(a++ + a++);
+        System.out.println(postIncrease(b) + postIncrease(b));
+        System.out.println("a: " + a + " b:" + b);
+        System.out.println("-----");
+
+        System.out.println(++a + ++a);
+        System.out.println(preIncrease(b) + preIncrease(b));
+        System.out.println("a: " + a + " b:" + b);
+        System.out.println("-----");
     }
 }

@@ -9,10 +9,11 @@ public class hw_4 {
         String input = sc.next();
 
         try{
-            int result = Integer.parseInt(input);
-            System.out.println("result = " + result);
-        }catch (NumberFormatException e){
-            System.out.println("숫자 형태가 아닙니다.");
+            int i = Integer.parseInt(input);
+            System.out.println(i);
+        }
+        catch(NumberFormatException e){
+            System.out.println("숫자가 아닙니다");
         }
     }
 }
